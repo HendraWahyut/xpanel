@@ -1,0 +1,11 @@
+[Unit]
+Description=Simple XPanel - @htcloudbot
+After=network.target
+
+[Service]
+WorkingDirectory=/root
+ExecStart=/usr/bin/python3 -m xolpanel
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

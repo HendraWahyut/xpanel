@@ -1,5 +1,5 @@
 [Unit]
-Description=Simple XPanel - @htcloudbot
+Description=Simple XolPanel - @XolPanel
 After=network.target
 
 [Service]
